@@ -16,8 +16,9 @@ import java.util.StringTokenizer;
 
  ※ Deque을 사용할 경우 뒤쪽 요소 접근도 가능
 
- (6) pollLast()       : 큐의 뒤(rear) 요소 제거 및 반환 (비어 있으면 null 반환)
- (7) peekLast()       : 큐의 뒤(rear) 요소 조회 (제거 X, 비어 있으면 null 반환)
+ (6) offerFirst(value): 큐의 앞(front)에 요소 추가
+ (7) pollLast()       : 큐의 뒤(rear) 요소 제거 및 반환 (비어 있으면 null 반환)
+ (8) peekLast()       : 큐의 뒤(rear) 요소 조회 (제거 X, 비어 있으면 null 반환)
  */
 class Main {
     public static void main(String[] args) throws IOException {
